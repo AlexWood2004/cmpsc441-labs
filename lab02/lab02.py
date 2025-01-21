@@ -21,7 +21,14 @@ import itertools
 def best_hand(hand):
     "From a 7-card hand, return the best 5 card hand."
     # Your code here
-    pass
+    best = (0, 0 ,0)
+    current = ()
+    for x in itertools.combinations(hand, 5):
+        current = hand_rank(x)
+        if(current > best):
+            best = current
+            besthand = x
+    return besthand
     
 # ------------------
 # Provided Functions
