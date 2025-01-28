@@ -5,7 +5,7 @@ messages = [
   {'role': 'system', 'content': 'You should have emotions like a human being \
                                  and be able to convey those emotions in your responses.'},
 ]
-options = {'temperature': 0.5, 'max_tokens': 100}
+options = {'temperature': 2, 'max_tokens': 8}
 
 while True:
   message = {'role': 'user', 'content': input('You: ')}
