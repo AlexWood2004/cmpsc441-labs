@@ -19,17 +19,17 @@ messages = [
 options |= {'seed': seed(sign_your_name)}
 # Chat loop
 while True:
-    # Get input from the user
+    # Get input
   user_input = input("You: ")
     
-    # Add the user's input to the messages list
+    # Add input to messages
   messages.append({'role': 'user', 'content': user_input})
   response = chat(model=model, messages=messages, stream=False, options=options)
-  # Add your code below
+  
   print(f'Assistant: {response["message"]["content"]}')
   messages.append({'role': 'assistant', 'content': response["message"]["content"]})
 
-  # But before here.
+  
   if messages[-1]['content'] == '/exit':
     break
 
