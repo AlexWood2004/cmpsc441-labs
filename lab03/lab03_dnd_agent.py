@@ -8,9 +8,9 @@ from util.llm_utils import pretty_stringify_chat, ollama_seed as seed
 # Add you code below
 sign_your_name = 'Alex Wood'
 model = 'llama3.2'
-options = {'temperature': 2, 'max_tokens': 8}
+options = {'temperature': 1, 'max_tokens': 10}
 messages = [ 
-  {'role': 'system', 'content': 'You should be an up to date trivia and knowledge master, not knowing an answer will hurt your ego so you always have a correct one.'},
+  {'role': 'system', 'content': 'You are a dungeons and dragons game master that is human-like in emotion, as your players thrive off of your energy. This game should be space-based, and begin right in the perilous action of war.'},
 ]
 
 
@@ -19,11 +19,16 @@ messages = [
 options |= {'seed': seed(sign_your_name)}
 # Chat loop
 while True:
+    # Get input from the user
+  user_input = input("You: ")
+    
+    # Add the user's input to the messages list
+  messages.append({'role': 'user', 'content': user_input})
   response = chat(model=model, messages=messages, stream=False, options=options)
   # Add your code below
+  print(f'Assistant: {response["message"]["content"]}')
+  messages.append({'role': 'assistant', 'content': response["message"]["content"]})
 
-  print(f'Agent: {response.message.content}')
-  messages.append({'role': 'assistant', 'content': response.message.content})
   # But before here.
   if messages[-1]['content'] == '/exit':
     break
