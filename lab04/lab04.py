@@ -24,7 +24,7 @@ lab04_params = {
         "template_file": "lab04/lab04_trader_chat.json",
         "inventory":"['Sword', 'book', 'potion']",
         "sign":"Alex",
-        "end_regex":r'RECEIVED(.*)DONE'
+        "end_regex":r'ORDER (.*) DONE'
 }
 
 if __name__ ==  '__main__':
@@ -32,6 +32,6 @@ if __name__ ==  '__main__':
     run_console_chat(template_file=trader_template_file,
                      inventory= '["Sword", "book", "potion"]',
                      sign='Alex',
-                     end_regex=r'RECEIVED(.*)DONE')
+                     end_regex=r'ORDER (.*) DONE')
     # run lab04.py to test your template interactively
     pass
