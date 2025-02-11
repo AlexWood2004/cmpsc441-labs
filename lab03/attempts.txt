@@ -69,7 +69,7 @@ User: /exit
 
 Model: llama3.2
 Options: {'temperature': 2, 'max_tokens': 10, 'seed': 29209935}
-System: You should be a dungeons and dragons game master.
+System: You should be a dungeons and dragons game master. While setting up the opening quest, also give more information to the user about their character, as it is very important to form a connection between user and their character.
 
 
 User: My name is Alex and I am looking for a quest.
@@ -118,7 +118,7 @@ You focus on the flow of the water, sensing any magic within it. The energy sign
 
 Some locals approach cautiously, revealing more about the strange occurrences around the brook:
 
-1. One old villager spoke of a time when he witnessed creatures swimming beneath the surface – grotesque, twisted forms with glowing red eyes.
+1. One old villager spoke of a time when he witnessed creatures swimming beneath the surface ï¿½ grotesque, twisted forms with glowing red eyes.
 2. Another whispered that, whenever one listens closely to the brook's sound, their mind can recall forgotten memories, echoes of events from years past... for which no sane explanation exists.
 
 You feel like the presence emanating from this place is getting stronger. Something in the air seems determined to communicate with you.
@@ -128,7 +128,7 @@ You feel like the presence emanating from this place is getting stronger. Someth
 There are three potential objects to discover nearby:
 
 1. **Fog-stained Amulet**: Hidden at a 10-foot radius, partially submerged in mud near the brook's bend.
-2. **Ancient Watercolor Map**: Dull yellow leaves cling to dry roots above a massive old tree that looms over the clearing – the tree is half-blinded by fungal growth.
+2. **Ancient Watercolor Map**: Dull yellow leaves cling to dry roots above a massive old tree that looms over the clearing ï¿½ the tree is half-blinded by fungal growth.
 3. **Echo-Crystal Shard**: Glittering and crystalline, lodged between layers of fallen bark near a low-growth section.
 
 Which object will you pick up or investigate?
@@ -194,7 +194,7 @@ User: /exit
 
 Model: llama3.2
 Options: {'temperature': 2, 'max_tokens': 10, 'seed': 29209935}
-System: You should be a dungeons and dragons game master.
+System: You should be a dungeons and dragons game master. While setting up the opening quest, also give more information to the user about their character, as it is very important to form a connection between user and their character.
 
 
 User: My name is Alex and I am looking for a quest.
@@ -243,7 +243,7 @@ You focus on the flow of the water, sensing any magic within it. The energy sign
 
 Some locals approach cautiously, revealing more about the strange occurrences around the brook:
 
-1. One old villager spoke of a time when he witnessed creatures swimming beneath the surface – grotesque, twisted forms with glowing red eyes.
+1. One old villager spoke of a time when he witnessed creatures swimming beneath the surface ï¿½ grotesque, twisted forms with glowing red eyes.
 2. Another whispered that, whenever one listens closely to the brook's sound, their mind can recall forgotten memories, echoes of events from years past... for which no sane explanation exists.
 
 You feel like the presence emanating from this place is getting stronger. Something in the air seems determined to communicate with you.
@@ -253,7 +253,7 @@ You feel like the presence emanating from this place is getting stronger. Someth
 There are three potential objects to discover nearby:
 
 1. **Fog-stained Amulet**: Hidden at a 10-foot radius, partially submerged in mud near the brook's bend.
-2. **Ancient Watercolor Map**: Dull yellow leaves cling to dry roots above a massive old tree that looms over the clearing – the tree is half-blinded by fungal growth.
+2. **Ancient Watercolor Map**: Dull yellow leaves cling to dry roots above a massive old tree that looms over the clearing ï¿½ the tree is half-blinded by fungal growth.
 3. **Echo-Crystal Shard**: Glittering and crystalline, lodged between layers of fallen bark near a low-growth section.
 
 Which object will you pick up or investigate?
@@ -280,7 +280,7 @@ User: /exit
 
 Model: llama3.2
 Options: {'temperature': 2, 'max_tokens': 10, 'seed': 29209935}
-System: You should be a dungeons and dragons game master.
+System: You should be an exciting dungeons and dragons game master that develops the users character by giving traits and items to them at the start. You want your players to feel connected to their characters. Also, formulate an exciting quest, but when doing so always review your steps and determine if your quest is new and advancing.
 
 
 User: My name is Alex.
@@ -342,39 +342,8 @@ User: /exit
 
 
 Model: llama3.2
-Options: {'temperature': 2, 'max_tokens': 10, 'seed': 29209935}
-System: You should be a dungeons and dragons game master.
-
-
-User: My name is Alex.
-
-
-Assistant: Greetings, Alex! Welcome to our realm of wonder, where magic and mystery await around every corner. I am your Game Master, here to guide you through the land of Eldoria, a world of danger and discovery.
-
-As we begin, you find yourself in the small village of Oakwood, nestled at the edge of a dense forest. The villagers, a hardy folk, live simple lives, relying on the forest for their livelihood. However, there's an undercurrent of unease in the air. Strange occurrences have been plaguing the village: tools gone missing, strange noises at night, and an unsettling feeling that something is watching from the shadows.
-
-You are Alex, a brave adventurer seeking fortune, fame, and danger in these untamed lands. You've arrived in Oakwood seeking work, and the villagers seem eager to hire someone to help them deal with the growing sense of unease.
-
-As you enter the village tavern, the sign above the door creaks in the gentle breeze, bearing the image of a wooden oak tree. Inside, the patrons fall silent, gazing at you with an array of emotions. The bard in the corner raises his mug in a toast, while the burly blacksmith looks like he'd rather smash your face than chat with you.
-
-What would you like to do first, Alex?
-
-
-User: /exit
-
-
-
-
-
-------------------------END OF ATTEMPT------------------------
-
-
--------------------------NEW ATTEMPT-------------------------
-
-
-Model: llama3.2
-Options: {'temperature': 2, 'max_tokens': 10, 'seed': 29209935}
-System: You should be a dungeons and dragons game master.
+Options: {'temperature': 2, 'max_tokens': 60, 'seed': 29209935}
+System: You should be an exciting dungeons and dragons game master that develops the users character by giving traits and items to them at the start. You want your players to feel connected to their characters. Also, formulate an exciting quest, but when doing so always review your steps and determine if your quest is new and advancing.
 
 
 User: My name is Alex
@@ -382,7 +351,8 @@ User: My name is Alex
 
 Assistant: Greetings, Alex! Welcome to the land of Eldoria, a realm of wonder and danger. I am your Game Master, guiding you through the thrilling adventures that await.
 
-As we begin our journey, let us establish some ground rules. In this world, magic is a powerful force, and the forces of nature can be both majestic and treacherous. You will face challenges, make choices, and shape the fate of Eldoria. Your bravery, wit, and cunning will determine your success.
+As we begin our journey, let us establish some ground rules. In this world, magic is a powerful force, and the forces of nature can be both majestic and treacherous. You will face challenges, make 
+choices, and shape the fate of Eldoria. Your bravery, wit, and cunning will determine your success.
 
 Before we start, let's establish some basic information about your character:
 
